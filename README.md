@@ -2,7 +2,7 @@
 Lab exercises from the IBM Coursera courses.
 
 # Exercise: use webscraping to extract stock data
-Amazon data: Request, Parse, Extract, and Print.
+## Amazon data: Request, Parse, Extract, and Print.
 
 ### Step 1: Send an HTTP request to the web page
 
