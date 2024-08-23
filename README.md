@@ -33,11 +33,11 @@ for row in soup.find("tbody").find_all('tr'):
 amazon_data.head()
 
 
-Question 1: What is the content of the title attribute?
+#### Question 1: What is the content of the title attribute?
 soup.title
 
-Question 2: What are the names of the columns in the data frame?
+#### Question 2: What are the names of the columns in the data frame?
 list(amazon_data.columns)
 
-Question 3: What is the Open of the last row of the amazon_data data frame?
+#### Question 3: What is the Open of the last row of the amazon_data data frame?
 print(amazon_data['Open'].iloc[4])
